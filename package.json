@@ -20,7 +20,9 @@
         "migrate": "tsx ./build/run-migration.ts",
         "lint": "eslint && npm run prettier:scss-svelte",
         "prettier:scss-svelte": "prettier --check src/styles src/**/*.svelte",
-        "lint:fix": "eslint --fix && prettier --write src/styles src/**/*.svelte"
+        "lint:fix": "eslint --fix && prettier --write src/styles src/**/*.svelte",
+        "pf2e": "pnpm run build --system=pf2e",
+        "sf2e": "pnpm run build --system=sf2e"
     },
     "author": "The (P|S)F2E System Developers",
     "license": "Apache-2.0",
